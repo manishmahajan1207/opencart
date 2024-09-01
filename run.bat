@@ -1,2 +1,2 @@
-cd C:\Users\admin\eclipse-workspace\openCart
-mvn test
+cd C:\Users\admin\eclipse-workspace\openCarthbhbvh
+mvn testhvhv
