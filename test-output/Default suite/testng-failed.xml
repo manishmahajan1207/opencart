@@ -3,6 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="com.openCart.testCases.TC003_LoginDDT">
+        <methods>
+          <include name="loginDDT"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.openCart.testCases.TC003_LoginDDT -->
       <class name="com.openCart.testCases.TC_002_LoginTest">
         <methods>
           <include name="setUp"/>
@@ -10,6 +17,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.openCart.testCases.TC_002_LoginTest -->
+      <class name="com.openCart.testCases.TC_RegistrationTest_001">
+        <methods>
+          <include name="setUp"/>
+          <include name="registrationTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.openCart.testCases.TC_RegistrationTest_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

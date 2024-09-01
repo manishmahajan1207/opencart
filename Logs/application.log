@@ -1953,3 +1953,91 @@
 2024-08-28 23:39:53,825 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
 2024-08-28 23:39:53,959 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
 2024-08-28 23:39:53,960 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-08-29 18:04:14,928 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:04:18,038 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-08-29 18:04:20,862 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-08-29 18:04:20,995 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-08-29 18:04:29,797 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:04:29,811 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-08-29 18:04:31,091 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-08-29 18:04:31,256 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-08-29 18:04:32,630 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-08-29 18:04:32,741 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-08-29 18:04:32,741 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-08-29 18:07:48,218 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:07:49,723 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-08-29 18:07:52,327 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-08-29 18:07:52,431 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-08-29 18:07:57,618 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:07:57,622 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-08-29 18:07:59,063 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-08-29 18:07:59,227 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-08-29 18:08:00,161 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-08-29 18:08:00,245 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-08-29 18:08:00,246 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-08-29 18:29:57,858 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:29:59,892 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-08-29 18:30:02,482 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-08-29 18:30:02,564 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-08-29 18:30:07,519 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:30:07,523 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-08-29 18:30:09,229 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-08-29 18:30:09,394 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-08-29 18:30:10,307 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-08-29 18:30:10,435 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-08-29 18:30:10,435 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-08-29 18:34:06,773 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:34:08,629 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-08-29 18:34:11,102 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-08-29 18:34:11,235 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-08-29 18:34:16,438 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:34:16,448 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-08-29 18:34:18,050 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-08-29 18:34:18,205 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-08-29 18:34:19,060 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-08-29 18:34:19,165 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-08-29 18:34:19,166 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-08-29 18:35:23,061 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:35:24,449 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-08-29 18:35:27,697 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-08-29 18:35:27,792 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-08-29 18:35:32,568 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:35:32,583 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-08-29 18:35:34,020 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-08-29 18:35:34,191 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-08-29 18:35:35,149 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-08-29 18:35:35,243 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-08-29 18:35:35,244 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-08-29 18:54:58,638 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:55:00,124 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-08-29 18:55:02,799 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-08-29 18:55:02,879 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-08-29 18:55:08,352 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-29 18:55:08,363 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-08-29 18:55:09,699 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-08-29 18:55:09,861 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-08-29 18:55:11,188 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-08-29 18:55:11,315 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-08-29 18:55:11,316 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-08-31 21:01:34,579 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-31 21:01:36,688 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-08-31 21:01:39,375 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-08-31 21:01:39,507 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-08-31 21:01:45,107 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-08-31 21:01:45,115 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-08-31 21:01:46,728 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-08-31 21:01:46,874 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-08-31 21:01:47,571 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-08-31 21:01:47,684 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-08-31 21:01:47,684 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......
+2024-09-01 08:30:44,341 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-09-01 08:30:46,128 +0530 [main] INFO  (TC_RegistrationTest_001.java:23) - Enter new user Registration details
+2024-09-01 08:30:48,865 +0530 [main] INFO  (TC_RegistrationTest_001.java:35) - user details submitted
+2024-09-01 08:30:48,981 +0530 [main] INFO  (TC_RegistrationTest_001.java:42) - TestCase is Passed
+2024-09-01 08:30:53,731 +0530 [main] INFO  (BaseClass.java:118) - OpenCart Application is opened
+2024-09-01 08:30:53,740 +0530 [main] INFO  (TC_002_LoginTest.java:18) - LoginTest is Started......
+2024-09-01 08:30:55,626 +0530 [main] INFO  (TC_002_LoginTest.java:26) - UserName is entered
+2024-09-01 08:30:55,787 +0530 [main] INFO  (TC_002_LoginTest.java:28) - Password is entered
+2024-09-01 08:30:56,683 +0530 [main] INFO  (TC_002_LoginTest.java:30) - LoginBtn is clicked
+2024-09-01 08:30:56,787 +0530 [main] INFO  (TC_002_LoginTest.java:36) - LoginTest is Passed
+2024-09-01 08:30:56,788 +0530 [main] INFO  (TC_002_LoginTest.java:44) - LoginTest is Finished......

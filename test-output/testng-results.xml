@@ -1,131 +1,641 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="0" failed="0" skipped="9">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-28T23:39:06 IST" name="Suite" finished-at="2024-08-28T23:39:55 IST" duration-ms="49548">
+  <suite started-at="2024-08-29T18:30:46 IST" name="Default suite" finished-at="2024-08-29T18:30:49 IST" duration-ms="3027">
     <groups>
       <group name="Master">
-        <method signature="TC_RegistrationTest_001.registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@435871cb]" name="registrationTest" class="com.openCart.testCases.TC_RegistrationTest_001"/>
-        <method signature="TC_002_LoginTest.loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@19fb8826]" name="loginTest" class="com.openCart.testCases.TC_002_LoginTest"/>
-        <method signature="TC_RegistrationTest_001.registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@50fe837a]" name="registrationTest" class="com.openCart.testCases.TC_RegistrationTest_001"/>
-        <method signature="TC_002_LoginTest.loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@3a62c01e]" name="loginTest" class="com.openCart.testCases.TC_002_LoginTest"/>
+        <method signature="TC_RegistrationTest_001.registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@5400db36]" name="registrationTest" class="com.openCart.testCases.TC_RegistrationTest_001"/>
+        <method signature="TC_002_LoginTest.loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@3277e499]" name="loginTest" class="com.openCart.testCases.TC_002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC_002_LoginTest.loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@19fb8826]" name="loginTest" class="com.openCart.testCases.TC_002_LoginTest"/>
-        <method signature="TC_002_LoginTest.loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@3a62c01e]" name="loginTest" class="com.openCart.testCases.TC_002_LoginTest"/>
+        <method signature="TC_002_LoginTest.loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@3277e499]" name="loginTest" class="com.openCart.testCases.TC_002_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC_RegistrationTest_001.registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@435871cb]" name="registrationTest" class="com.openCart.testCases.TC_RegistrationTest_001"/>
-        <method signature="TC_RegistrationTest_001.registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@50fe837a]" name="registrationTest" class="com.openCart.testCases.TC_RegistrationTest_001"/>
+        <method signature="TC_RegistrationTest_001.registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@5400db36]" name="registrationTest" class="com.openCart.testCases.TC_RegistrationTest_001"/>
       </group> <!-- Regression -->
+      <group name="DataDriven">
+        <method signature="TC003_LoginDDT.loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" name="loginDDT" class="com.openCart.testCases.TC003_LoginDDT"/>
+      </group> <!-- DataDriven -->
     </groups>
-    <test started-at="2024-08-28T23:39:06 IST" name="Linux-chrometest" finished-at="2024-08-28T23:39:23 IST" duration-ms="17446">
+    <test started-at="2024-08-29T18:30:46 IST" name="Default test" finished-at="2024-08-29T18:30:49 IST" duration-ms="3027">
       <class name="com.openCart.testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC_002_LoginTest@19fb8826]" started-at="2024-08-28T23:39:17 IST" name="setUp" finished-at="2024-08-28T23:39:20 IST" duration-ms="3572" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC_002_LoginTest@3277e499]" started-at="2024-08-29T18:30:46 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1724936446880" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@19fb8826]" started-at="2024-08-28T23:39:20 IST" name="loginTest" finished-at="2024-08-28T23:39:23 IST" duration-ms="2834" status="PASS">
+        <test-method signature="loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@3277e499]" started-at="2024-08-29T18:30:46 IST" name="loginTest" finished-at="2024-08-29T18:30:46 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_002_LoginTest@19fb8826]" started-at="2024-08-28T23:39:23 IST" name="tearDown" finished-at="2024-08-28T23:39:23 IST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_002_LoginTest@3277e499]" started-at="2024-08-29T18:30:47 IST" name="tearDown" finished-at="2024-08-29T18:30:47 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.openCart.testCases.TC_002_LoginTest -->
       <class name="com.openCart.testCases.TC_RegistrationTest_001">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC_RegistrationTest_001@435871cb]" started-at="2024-08-28T23:39:07 IST" name="setUp" finished-at="2024-08-28T23:39:12 IST" duration-ms="4755" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC_RegistrationTest_001@5400db36]" started-at="2024-08-29T18:30:47 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1724936447009" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@435871cb]" started-at="2024-08-28T23:39:12 IST" name="registrationTest" finished-at="2024-08-28T23:39:16 IST" duration-ms="4670" status="PASS">
+        <test-method signature="registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@5400db36]" started-at="2024-08-29T18:30:47 IST" name="registrationTest" finished-at="2024-08-29T18:30:47 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_RegistrationTest_001@435871cb]" started-at="2024-08-28T23:39:17 IST" name="tearDown" finished-at="2024-08-28T23:39:17 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_RegistrationTest_001@5400db36]" started-at="2024-08-29T18:30:47 IST" name="tearDown" finished-at="2024-08-29T18:30:47 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.openCart.testCases.TC_RegistrationTest_001 -->
-    </test> <!-- Linux-chrometest -->
-    <test started-at="2024-08-28T23:39:25 IST" name="Linux-firefoxtest" finished-at="2024-08-28T23:39:55 IST" duration-ms="30790">
-      <class name="com.openCart.testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC_002_LoginTest@3a62c01e]" started-at="2024-08-28T23:39:42 IST" name="setUp" finished-at="2024-08-28T23:39:51 IST" duration-ms="8942" status="PASS">
+      <class name="com.openCart.testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:47 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1724936447051" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-29T18:30:49 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[pavanoltraining@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InValid]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:2, instance:com.openCart.testCases.TC_002_LoginTest@3a62c01e]" started-at="2024-08-28T23:39:51 IST" name="loginTest" finished-at="2024-08-28T23:39:53 IST" duration-ms="2635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_002_LoginTest@3a62c01e]" started-at="2024-08-28T23:39:53 IST" name="tearDown" finished-at="2024-08-28T23:39:55 IST" duration-ms="1858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.openCart.testCases.TC_002_LoginTest -->
-      <class name="com.openCart.testCases.TC_RegistrationTest_001">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC_RegistrationTest_001@50fe837a]" started-at="2024-08-28T23:39:25 IST" name="setUp" finished-at="2024-08-28T23:39:35 IST" duration-ms="10552" status="PASS">
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-29T18:30:49 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[lakshmi@yahoo.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="registrationTest()[pri:1, instance:com.openCart.testCases.TC_RegistrationTest_001@50fe837a]" started-at="2024-08-28T23:39:35 IST" name="registrationTest" finished-at="2024-08-28T23:39:40 IST" duration-ms="4824" status="PASS">
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-29T18:30:49 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_RegistrationTest_001@50fe837a]" started-at="2024-08-28T23:39:40 IST" name="tearDown" finished-at="2024-08-28T23:39:42 IST" duration-ms="1937" status="PASS">
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-29T18:30:49 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-29T18:30:49 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-29T18:30:49 IST" duration-ms="3" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-29T18:30:49 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mms@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\admin\AppData\Local\Temp\testng-eclipse-2021464298\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC003_LoginDDT@76b74e9c]" started-at="2024-08-29T18:30:49 IST" name="tearDown" finished-at="2024-08-29T18:30:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.openCart.testCases.TC_RegistrationTest_001 -->
-    </test> <!-- Linux-firefoxtest -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.openCart.testCases.TC003_LoginDDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
